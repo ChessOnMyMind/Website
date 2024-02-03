@@ -1,1 +1,1 @@
-
+This is my personal website. You are free to reuse the content under the terms of [CC-BY-SA](https://github.com/ChessOnMyMind/website/blob/main/CC-BY-SA-4.0-LICENSE.md) license, and the code under the terms of the [MIT](https://github.com/ChessOnMyMind/website/blob/main/MIT-LICENSE.md) license.
