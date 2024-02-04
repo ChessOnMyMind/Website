@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Regular data -->
+  <meta charset="utf-8">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <!-- Description -->
+  <meta name="author" content="Paul" />
+  <meta name="description" content="Essays from the viewpoint of a deafblind chess player about chess improvement." />
+  <meta name="keywords" content="Deafblind, Braille Chess, Player, Enthusiast, Improvement, Study, Openings, Tactics, Endgames, Books, Games, Chessboard, Pieces, Pawns, Chess Clock, Software, Engines, Databases, Correspondence Tournament, Over the Board Tournament" />
+  <meta name="Resource-type" content="Document" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Title -->
+  <title>Get in touch with the deafblind chess player</title>
+
+  <!-- Skiplink -->
+  <a href="#main" class="skiplink">Skip to main content</a>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+  <div class="container">
+    <header role="banner">
+	    <h1 class="site-title"><a href="/" class="site-link">Chess on my Mind</a></h1>
+      <h2 class="subtitle">Inside the Mind of a Deafblind Chess Player</h2>
+        
+      <nav role="navigation">
+        <a href="/" class="nav-link"  aria-current="page" class="on-page">Home</a>
+        <a href="/essays" class="nav-link">Essays</a>
+        <a href="/about" class="nav-link">About</a>
+        <a href="/contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main" role="main">
+      <h1>Contact</h1>
+
+      <article>
+        <p>Given that I spend my life attached to some form of computer, I'm not a hard person to get hold of. So, if you have any questions, are seeking advice, or you just want to shoot the breeze then feel free to reach out to me. You can shoot me an email at <a id="contact" href=""><span class="blockspam" aria-hidden="true">no-spam</span>paul@<!-- sdfjsdhfkjypcs -->chessonmymind.org</a>.</p>
+        <p>As well as this website, you can also find me on:</p>
+        <ul>
+            <li><a href="https://github.com/chessonmymind">GitHub</a></li>
+            <li><a href="https://lichess.org/@/ChessOnMyMind">Lichess</a></li>
+        </ul>
+      </article>
+
+    </main>
+
+    <footer role="contentinfo">
+      <p class="copyright">The content for this site is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>. The code for this site is <a href="https://opensource.org/license/mit/">MIT</a>.</p>
+      </footer>
+    </div>
+
+    <script>
+      var encEmail = "cGF1bEBjaGVzc29ubXltaW5kLm9yZw==";
+      const form = document.getElementById("contact");
+      form.setAttribute("href", "mailto:".concat(atob(encEmail)));
+    </script>
+    
+  </body>
+</html>

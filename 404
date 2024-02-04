@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Regular data -->
+  <meta charset="utf-8">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <!-- Description -->
+  <meta name="author" content="Paul" />
+  <meta name="description" content="Essays from the viewpoint of a deafblind chess player about chess improvement." />
+  <meta name="keywords" content="Deafblind, Braille Chess, Player, Enthusiast, Improvement, Study, Openings, Tactics, Endgames, Books, Games, Chessboard, Pieces, Pawns, Chess Clock, Software, Engines, Databases, Correspondence Tournament, Over the Board Tournament" />
+  <meta name="Resource-type" content="Document" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Title -->
+  <title>Error: page not found</title>
+
+  <!-- Skiplink -->
+  <a href="#main" class="skiplink">Skip to main content</a>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+  <div class="container">
+    <header role="banner">
+	    <h1 class="site-title"><a href="/" class="site-link">Chess on my Mind</a></h1>
+      <h2 class="subtitle">Inside the Mind of a Deafblind Chess Player</h2>
+        
+      <nav role="navigation">
+        <a href="/" class="nav-link"  aria-current="page" class="on-page">Home</a>
+        <a href="/essays" class="nav-link">Essays</a>
+        <a href="/about" class="nav-link">About</a>
+        <a href="/contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main" role="main">
+      <h1>Error: page not found</h1>
+
+      <article>
+        <ul>
+            <li>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</li>
+            <li>Please try to [ go back ] or [ <a href="/">return to the homepage</a> ]</li>
+            <li>Good luck.</p></li>
+          </ul>
+      </article>
+
+    </main>
+
+    <footer role="contentinfo">
+      <p class="copyright">The content for this site is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>. The code for this site is <a href="https://opensource.org/license/mit/">MIT</a>.</p>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,470 @@
+@font-face {
+    font-family: "braille-font";
+    src: url("/fonts/Braille/Apple\ Braille\ Pinpoint\ 6\ Dot.eot");
+    src: url("/fonts/Braille/Apple\ Braille\ Pinpoint\ 6\ Dot.eot?#iefix")
+        format("embedded-opentype"),
+      url("/fonts/Braille/Apple\ Braille\ Pinpoint\ 6\ Dot.woff") format("woff"),
+      url("/fonts/Braille/Apple\ Braille\ Pinpoint\ 6\ Dot.woff2") format("woff2"),
+      url("/fonts/Braille/Apple\ Braille\ Pinpoint\ 6\ Dot.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+* {
+    box-sizing: border-box;
+}
+html, body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+}
+html {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+body {
+    margin: 0;
+    line-height: 1.5em !important;
+    color: #fff;
+    background-color: #222;
+    overflow-x: hidden;
+}
+
+/**
+* Container Formatting
+*/
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    max-width: 50rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/**
+* Header Formatting
+*/
+
+header {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1.125rem;
+}
+.site-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 0;
+    list-style-type: none;
+}
+.site-title a {
+    color: #dbdbdb;
+    font-style: none;
+}
+.site-title a:hover {
+    color: #fff;
+    text-decoration: underline;
+    text-underline-offset: .25rem;
+}
+a.site-link {
+    color: #fff;
+    text-decoration: none;
+}
+.subtitle {
+    font-size: 1rem;
+    font-weight: bold;
+}
+@media (min-width: 28rem) {
+    .subtitle {
+        font-size: 1.25rem;
+   }
+}
+
+/**
+* Navigation
+*/
+
+nav {
+    text-align: center;
+    padding: 2rem 0;
+}
+nav a {
+    margin: 1rem;
+    color: #fff;
+    font-weight: bold;
+    font-style: none;
+}
+nav a:hover {
+    text-decoration: underline;
+    text-underline-offset: .25rem;
+}
+a.nav-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+/**
+* Skiplinks Formatting
+*/
+
+.skiplink {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #222;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-size: 1rem;
+    text-align: left;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    z-index: 18;
+}
+.skiplink:focus {
+    transform: translateY(0%);
+}
+.skiplink {
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateY(-100%);
+    transition: transform 0.3s;
+    width: 0.0625rem;
+    height: 0.0625rem;
+    overflow: hidden;
+}
+.skiplink:focus {
+    transform: translateY(0%);
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: auto;
+    height: auto;
+    height: 2.75rem;
+}
+
+/**
+* Footer Formatting
+*/
+
+footer {
+    padding-top: 1rem;
+    margin-top: auto;
+	color: #fff;
+	border-top: solid 0.125rem #fff;
+	padding-bottom: 2rem;
+	text-align: left;
+
+}
+.copyright {
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 0;
+    list-style-type: none;
+    text-align: left;
+}
+.copyright a {
+    text-decoration: underline;
+    text-underline-offset: .25rem;
+    color: #fff;
+}
+.copyright a:hover {
+    color: #fff;
+
+}
+
+/**
+* Headings
+*/
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 2rem;
+	margin: 0;
+    margin-bottom: 2rem;
+	font-weight: bold;
+	color: #fff;
+}
+
+/**
+* Paragraphs
+*/
+
+p {
+    position: relative;
+    margin-bottom: 1rem;
+    text-align: justify;
+    font-size: 1rem;
+	color: #fff;
+}
+p {
+	 word-wrap: break-word;
+	 word-break: break-word;
+	 white-space: pre-wrap;
+	 margin-bottom: 1rem;
+}
+
+/**
+* Selection
+*/
+
+::selection {
+	background: #fff;
+	color: #222;
+}
+::-moz-selection {
+	background: #fff;
+	color: #000;
+}
+
+/**
+* Selection
+*/
+
+::selection {
+	background: #fff;
+	color: #222;
+}
+::-moz-selection {
+	background: #fff;
+	color: #222;
+}
+
+/**
+* List Formatting
+*/
+
+ul {
+
+    list-style-type: "*";
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+ol {
+    list-style-position: inside;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+ul li {
+    margin-left: 2rem;
+    padding-left: 1rem;
+}
+ol li {
+    padding-left: 1.5rem;
+}
+
+/**
+* Blockquote
+*/
+blockquote {
+	padding: 0 0 0 1.5rem;
+    margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+    color: #fff;
+    border-left: 0.25rem solid #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: justify;
+}
+blockquote p:last-child {
+	margin-bottom: 0;
+}
+
+/**
+* Link Formatting
+*/
+
+a {
+    text-decoration: underline;
+    text-underline-offset: .25rem;
+    color: #fff;
+}
+
+a:visited {
+    color: #fff;
+}
+
+/**
+* Font Formatting
+*/
+
+strong {
+	font-weight: bold;
+    color: #fff;
+}
+abbr {
+    text-decoration: none;
+    border-bottom: 0.0625rem #fff;
+    font-family: "SFMono-Regular", Menlo, Monaco, "Courier New", monospace;
+    font-size: 1.125rem;
+    font-weight: bold;
+}
+kbd {
+    display: inline-block;
+    padding: 0.1875rem;
+    font-family: "SFMono-Regular", Menlo, Monaco, "Courier New", monospace;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #222;
+    text-transform: uppercase;
+    background-color: #fff;
+    border-radius: 0.1875rem;
+}
+
+/**
+ * Braille Formatting
+ */
+
+ .brl {
+    font-family: 'braille-font';
+    color: #fff;
+    font-size: 1.5rem;
+    vertical-align: -0.25rem;
+    padding: 0;
+}
+
+/**
+ * No Spam
+ */
+
+span.blockspam {
+    display: none;
+}
+
+/**
+* Archive
+*/
+
+.archive {
+    margin-bottom: 3rem;
+}
+.archive-item {
+    margin-bottom: 1rem;
+    overflow: auto;
+}
+.archive-item+.archive-year {
+    margin-top: 2rem;
+}
+.archive-title {
+    font-size: 1rem;
+    margin: 0;
+}
+.archive-date {
+    flex: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+.spacer {
+    width: 1rem;
+}
+@media (min-width: 28rem) {
+    .archive-item {
+        margin-bottom: .5rem;
+   }
+}
+
+.d-none {
+    display: none;
+}
+.gap {
+    gap: .25rem;
+}
+.flex-none {
+    flex: none;
+}
+@media (min-width: 28rem) {
+    .d-md-flex {
+        display: flex;
+   }
+    .d-md-block {
+        display: block;
+   }
+}
+
+/**
+* Article Formatting
+*/
+
+article {
+    margin:0 auto;
+    max-width:45rem;
+}
+article {
+    display:block!important;
+    margin:0 auto!important;
+    max-width:90%
+}
+@media(max-width:40rem)
+{
+    article {
+        max-width:calc(100% - 2rem)
+    }
+}
+.article-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+.essay-date {
+    font-size: 1rem;
+	margin-bottom: 2rem;
+	color: #fff;
+}
+
+/**
+* Code formatting
+*/
+
+pre, code {
+    font-family: "SFMono-Regular", Menlo, Monaco, "Courier New", monospace;
+    font-size: 1rem;
+    color: #fff;
+    border: 0.0625rem solid #fff;
+    background-color: #222;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+}
+code {
+    padding: 0.0625rem 0.3125rem;
+}
+pre {
+    white-space: normal;
+    text-indent: -1.5rem;
+    padding: 0.5rem 0.75rem;
+}
+pre > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+.highlight {
+    background: #000;
+}
+.highlighter-rouge .highlight {
+    background: #222;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Regular data -->
+  <meta charset="utf-8">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <!-- Description -->
+  <meta name="author" content="Paul" />
+  <meta name="description" content="Essays from the viewpoint of a deafblind chess player about chess improvement." />
+  <meta name="keywords" content="Deafblind, Braille Chess, Player, Enthusiast, Improvement, Study, Openings, Tactics, Endgames, Books, Games, Chessboard, Pieces, Pawns, Chess Clock, Software, Engines, Databases, Correspondence Tournament, Over the Board Tournament" />
+  <meta name="Resource-type" content="Document" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Title -->
+  <title>Prologue: Chess on my Mind</title>
+
+  <!-- Skiplink -->
+  <a href="#main" class="skiplink">Skip to main content</a>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+  <div class="container">
+    <header role="banner">
+	    <h1 class="site-title"><a href="/" class="site-link">Chess on my Mind</a></h1>
+      <h2 class="subtitle">Inside the Mind of a Deafblind Chess Player</h2>
+        
+      <nav role="navigation">
+        <a href="/" class="nav-link"  aria-current="page" class="on-page">Home</a>
+        <a href="/essays" class="nav-link">Essays</a>
+        <a href="/about" class="nav-link">About</a>
+        <a href="/contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main" role="main">
+      <h1>Prologue: Chess on my Mind</h1>
+      <p class="essay-date">February 3, 2024</p>
+      
+      <article>
+        <p>It seems like an appropriate time to start writing about my journey to chess improvement. I'm not a master of the game. I've never played in tournaments. Never played in a chess club. My only experience has been playing friendly games with family and friends during my childhood and adolescent years. I'm not qualified to offer lessons or give expert advice.</p>
+        <p>Since I rekindled my love for chess the only games, I've played have been against chess engines. I have joined the "Braille Chess Association" in the United Kingdom. In time I intend to participate in both correspondence and over-the-board tournaments together with friendly games by email and on Lichess with other members of the BCA.</p>
+        <p>I'm not the blogging type, so I have chosen to write essays instead. Even though I don't have the expertise or qualifications to teach chess to others, I do have experiences to share as a deafblind chess enthusiast navigating the world of chess. Through my essays I hope to help others, especially in the blind community to navigate these accessibility challenges we face that seemingly thwart our attempts to progress and grow as chess players.</p>
+        <p>There are many topics I want to write about. My essays will start with tactile chess equipment. I want to discuss not just how a chessboard and its pieces have been adapted for the blind. But also, how the size of a chessboard can affect the spatial awareness of a blind player. I will likewise be discussing the accessibility of chess clocks. How a blind person can listen to a digital talking chess clock and a deafblind player can read a braille chess clock with his fingers.</p>
+        <p>Then I want to dig into the rules for blind players with "The International Chess Federation" or "World Chess Federation" and how a deafblind enthusiast like me might be able to participate.</p>
+        <p>Chess study will be an ongoing subject. It's a huge area to explore. I will write about chess books that I have found to be accessible including the games. There will be the occasional review about chess books in general including biographies of renowned chess masters, and novels, that I have enjoyed reading. Additionally, I will write about other literature I find accessible that discusses chess matters in the form of magazines, and gazettes.</p>
+        <p>As a deafblind chess player who relies entirely on touch and braille to access the world of chess, I will explain how braille chess notation is written in Unified English Braille (UEB) so that I can read algebraic and descriptive notation as well as Forsyth-Edwards Notation (FEN) that is great for describing a particular board position of a chess game. I will use the FEN notation extensively throughout my essays, as there will be no images.</p>
+        <p>Assistive technology is another topic I want to write about. These essays will be focus on screen readers, refreshable braille displays, notetakers, and multi-line braille readers that I use to read notations, books, other literature and access chess applications and software. Even the humble slate and stylus will get a mention as I use that in lieu of a traditional pencil and chess score sheet.</p>
+        <p>The accessibility of chess applications and software is something I am very passionate about. I will write extensively about this and how I access them with assistive technology. I use both Windows and Linux machines with the likes of Stockfish 16, Fritz 19, Chessbase 17, and Lichess to name a few.</p>
+        <p>I hope you enjoy reading my essays and find some useful. Since this isn't a dynamic blog there are no comments. Instead, if you wish to discuss something with me then feel free to shoot me an email. You can find my email address on the <a href="/contact">contact</a> page.</p>
+        <p>-- Paul</p>
+      </article>
+
+    </main>
+
+    <footer role="contentinfo">
+      <p class="copyright">The content for this site is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>. The code for this site is <a href="https://opensource.org/license/mit/">MIT</a>.</p>
+      </footer>
+    </div>
+  </body>
+</html>
