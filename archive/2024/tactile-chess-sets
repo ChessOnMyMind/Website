@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Regular data -->
+  <meta charset="utf-8">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <!-- Description -->
+  <meta name="author" content="Paul" />
+  <meta name="description" content="Essays from the viewpoint of a deafblind chess player about chess improvement." />
+  <meta name="keywords" content="Deafblind, Braille Chess, Player, Enthusiast, Improvement, Study, Openings, Tactics, Endgames, Books, Games, Chessboard, Pieces, Pawns, Chess Clock, Software, Engines, Databases, Correspondence Tournament, Over the Board Tournament" />
+  <meta name="Resource-type" content="Document" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Title -->
+  <title>Tactile Chess Sets</title>
+
+  <!-- Skiplink -->
+  <a href="#main" class="skiplink">Skip to main content</a>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+  <div class="container">
+    <header role="banner">
+	    <h1 class="site-title"><a href="/" class="site-link">Chess on my Mind</a></h1>
+      <h2 class="subtitle">Inside the Mind of a Deafblind Chess Player</h2>
+        
+      <nav role="navigation">
+        <a href="/" class="nav-link"  aria-current="page" class="on-page">Home</a>
+        <a href="/essays" class="nav-link">Essays</a>
+        <a href="/about" class="nav-link">About</a>
+        <a href="/contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main" role="main">
+      <h1>Tactile Chess Sets</h1>
+      <p class="essay-date">February 10, 2024</p>
+      
+      <article>
+        <p>A tactile chess set lets me as a deafblind chess player engage in intense battles of wits, relying solely on my sense of touch to make my moves. With a few small tweaks to a traditional chess set, a tactile chess set lets me easily identify and locate each piece by touch. It gives me the opportunity to enjoy the intellectual challenge and strategic gameplay of chess on an equal footing with sighted players.</p>
+        <p>When I first started playing chess, I purchased a tactile chess set from the BCA (Braille Chess Association) in the United Kingdom. I had a choice of two board sizes, a 10-inch (25cm) or 13-inch (33cm) board. I chose the larger 13-inch set without any concept of spatial awareness. These tactile chess sets have been specially created by Chess Baron and approved by the BCA.</p>
+        <p>Both tactile chess sets have a hole in the centre of each square. The black squares are raised slightly so I can feel the difference between the two colours. The pieces are of Staunton design with a peg in the base of each piece that fits securely into the hole on the board, ensuring that each piece stays in place on its designated square. This is particularly important for a blind player who relies heavily on touch to navigate the board and make moves. The black pieces have a small pin on the top to distinguish them from the white pieces.</p>
+        <p>A year later I was given another tactile chess set. This time from a friend of mine. It had belonged to her late younger brother who was also deafblind, and an avid chess player. This tactile chess set differs slightly from the one I bought from the BCA. The board is the same size, but it has a column with fifteen holes on the left- and right-hand side of the board to store captured pieces. The pieces are of a contemporary design with the pins oddly on top of the white pieces.</p>
+        <p>Then last month I was fortunate to purchase another tactile chess set from the BCA. This set is magnetic rather than the traditional pegged set. This tactile chess set was crafted in Italy on behalf of the BCA. The craftmanship is top-notch and the set has been built with the finest materials.</p>
+        <p>It is almost identical to my first set with raised black squares, Staunton pieces with pins atop the black pieces. But instead of a hole in the centre of each square and a peg at the base of each piece there is a set of strong magnets to ensure that each piece stays in place on its designated square. I find it is much easier and far more enjoyable to move the pieces around the board than I do with either of my pegged sets. </p>
+        <p>Speaking of tactile chess sets, I want to tell you about a conversation I had recently with a far more experienced blind chess player than myself. The conservation was around the subjective topic of board sizes. Most tactile chess sets come with either a 10-inch or 13-inch board but there are bigger 15-inch and 16-inch board available.</p>
+        <p>He told me that he personally wouldn't want a board bigger than 13-inch. He went on to explain that his own spatial awareness has vastly improved since he started using smaller boards and is able to visualise the board in his mind's eye. He told me that ideally a blind chess player doesn't want to be checking too much with their hands, as they are need for other purposes, and it becomes tiring the more the hands are wandering around.</p>
+        <p>To drive his point home, he told me a story where he had invited a good chess friend of his to a chess event, he was participating in. His friend had observed a particular blind person playing on a smaller board and mentioned that he was able to rest his hands on the board in such a way that they covered its entirely without him having to move his arms.</p>
+        <p>He said that his friend had encouraged him to try a smaller board. Which he did and hasn't looked back since. He told me that he rarely misses long diagonals these days, such as a bishop traveling from b1 to h7. But he does sometimes miss is sideways moves right across the board.</p>
+        <p>This got me thinking about my own board size and my developing spatial awareness. All my boards are currently 13-inch, but I can't place my hands in a way that allows me to touch all the pieces on the board without moving my arms. I may at some point consider getting a 10-inch board but for now my focus is going to be on developing spatial concepts as part of my chess training using the boards I currently have.</p>
+        <p>The way I see it, I need to learn how to think visually. To be able to draw a mental map of the game I'm in. To be able to assess the relationships of the pieces and pawns on the board; understand the interaction between them. To know if the position is being attacked, defended, controlled, or obstructed. This for me is more important that getting a smaller tactile chess set. I hope in time my chess neural pathways will enable me to see these patterns and positions in my mind’s eye, so I can make smart decisions. Then maybe a 13-inch tactile chess set is all I need, but it's something to think about as continue down the path of chess improvement.</p>
+        <p>-- Paul</p>
+      </article>
+
+    </main>
+
+    <footer role="contentinfo">
+      <p class="copyright">The content for this site is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>. The code for this site is <a href="https://opensource.org/license/mit/">MIT</a>.</p>
+      </footer>
+    </div>
+  </body>
+</html>

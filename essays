@@ -43,12 +43,18 @@
       <article>
         <div class="archive">
             <h2 class="archive-year">2024</h2>
+
+            <div class="archive-item d-md-flex">
+              <h3 class="archive-title"><a href="/archive/2024/tactile-chess-sets" class="flex-none">Tactile Chess Sets</a></h3>
+              <div class="spacer d-none d-md-block"></div>
+              <div class="archive-date flex-none">February 10, 2024</div>
+            </div>
         
             <div class="archive-item d-md-flex">
               <h3 class="archive-title"><a href="/archive/2024/prologue-chess-on-my-mind" class="flex-none">Prologue: Chess on my Mind</a></h3>
               <div class="spacer d-none d-md-block"></div>
               <div class="archive-date flex-none">February 3, 2024</div>
-          </div>
+            </div>
 
       </article>
 

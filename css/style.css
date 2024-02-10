@@ -240,19 +240,6 @@ p {
 }
 
 /**
-* Selection
-*/
-
-::selection {
-	background: #fff;
-	color: #222;
-}
-::-moz-selection {
-	background: #fff;
-	color: #222;
-}
-
-/**
 * List Formatting
 */
 
@@ -365,6 +352,9 @@ span.blockspam {
 }
 .archive-item+.archive-year {
     margin-top: 2rem;
+}
+.archive-year {
+    font-size: 1.5rem;
 }
 .archive-title {
     font-size: 1rem;
