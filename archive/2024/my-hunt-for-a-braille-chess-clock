@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Regular data -->
+  <meta charset="utf-8">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <!-- Description -->
+  <meta name="author" content="Paul" />
+  <meta name="description" content="Essays from the viewpoint of a deafblind chess player about chess improvement." />
+  <meta name="keywords" content="Deafblind, Braille Chess, Player, Enthusiast, Improvement, Study, Openings, Tactics, Endgames, Books, Games, Chessboard, Pieces, Pawns, Chess Clock, Software, Engines, Databases, Correspondence Tournament, Over the Board Tournament" />
+  <meta name="Resource-type" content="Document" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Title -->
+  <title>My hunt for a Braille Chess Clock</title>
+
+  <!-- Skiplink -->
+  <a href="#main" class="skiplink">Skip to main content</a>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+  <div class="container">
+    <header role="banner">
+	    <h1 class="site-title"><a href="/" class="site-link">Chess on my Mind</a></h1>
+      <h2 class="subtitle">Inside the Mind of a Deafblind Chess Player</h2>
+        
+      <nav role="navigation">
+        <a href="/" class="nav-link"  aria-current="page" class="on-page">Home</a>
+        <a href="/essays" class="nav-link">Essays</a>
+        <a href="/about" class="nav-link">About</a>
+        <a href="/contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main" role="main">
+      <h1>My hunt for a Braille Chess Clock</h1>
+      <p class="essay-date">February 17, 2024</p>
+      
+      <article>
+        <p>For any serious chess player, a good chess clock is just as important as the chess set itself. There are two fundamental types of chess clocks to choose from. Analogue or digital clocks. They both come in a variety of designs, but they share common fundamental features, and each player has their own preference.</p>
+        <p>The blind chess community isn't any different. There are two types of accessible chess clocks to choose from. Braille (analogue) or talking (digital) clocks. The majority of blind chess player these days prefer digital talking chess clocks such as the Kaisa and DGT Echo. Being deafblind, talking chess clocks aren't accessible to me, so I must use a braille chess clock.</p>
+        <p>The appearance and functionality of a braille chess clock is pretty much the same as a traditional analogue chess clock used by sighted players. It has two adjacent mechanical clocks that require the occasional winding up. There are two buttons on top of the casing to stop one clock while starting another, so that two clocks never run simultaneously. There is a little flag hanging from the 12 o'clock position on the dial. When the time has expired the flag will fall and players are responsible for noticing when this happens. The casing is usually made from the much more durable wood rather than polymer or plastic.</p>
+        <p>The fundamental difference with a braille chess clock is there's no protective glass or crystal cover on either of the clocks to protect the dials. Instead, it is open to allow a blind player to touch the dial to feel the position of the hands to read the time. There are three tactile dots at 12 o'clock two tactile dots at 3, 6, and 9 o'clock and a single tactile dot at all the other numbers. The mechanism and clock-hands have been constructed not to be susceptible to movement at the mere touch of the finger that a blind player uses to observe their positions.</p>
+        <p>Unfortunately, today braille chess clocks have been superseded by digital talking chess clocks and are no longer made by the likes of Garde and Jerger who made them alongside their standard range. I have spent many, many, many hours over the last few years scouring the internet for a braille chess clock. I've looked on all the major auction websites and the usual places where one can find second-hand, vintage, and antique items for sale, with no avail.</p>
+        <p>It is possible that I might have stumbled upon a braille chess clock for sale on one of those sites during my long searches. It is even more likely that many of the sellers of these chess clocks are unaware of braille chess clocks. They probably incorrectly assumed that the protective glass had been broken at some point in time. This would be reflected in the descriptions they had written. No mention of the word "braille" or "blind". And being blind I couldn't examine the pictures to see if the clocks had those tactile dots on the dials. But I lay odds on, that there are many braille chess clocks out there somewhere. Hundreds, maybe even thousands of them. Unless they are in the hands of blind chess players then the odds are no one knows they're in procession of a braille chess clock.</p>
+        <p>I had almost given up hope on finding a braille chess clock when I thought I would make a last ditching attempt by asking the members of the BCA (Braille Chess Association) mailing list in the United Kingdom. It's a small group but most of the members are part of the blind chess community. My email went unanswered for a several days and I began to wonder if I would get a response at all. Three days pasted when I received a response to my request for a braille chess clock.</p>
+        <p>The email I received was from one of the trustees of the BCA who had a Jerger "Olympia" braille chess clock that I could have. I was told it is a very reliable model and in immaculate condition. To say it was beyond any preconceived expectations I had would be a serious understatement. In return for the clock, I was asked to make a cash donation to the BCA. My donation reflected my utmost gratitude.</p>
+        <p>The Jerger "Olympia" is an extremely well-made braille chess clock encased in wood with two outstanding displays with large clear dials and braille numbering making it easy to read the time with my finger. It really is a fine quality German engineered timepiece that gives an elegant and rich experience.</p>
+        <p>This Jerger "Olympia" once belonged to the late, great Graham Lilley. He was a brilliant blind chess player, a former champion who represented the UK countless times at IBCA events around the world.  He was a highly respected "Honorary Life Member" of the BCA.</p>
+        <p>After Graham sadly passed away at the end of 2022 his brother donated all his chess equipment to the BCA. I am incredibly humbled and grateful to now own this braille chess clock. I will treasure it forever.</p>
+        <p>-- Paul</p>
+      </article>
+
+    </main>
+
+    <footer role="contentinfo">
+      <p class="copyright">The content for this site is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>. The code for this site is <a href="https://opensource.org/license/mit/">MIT</a>.</p>
+      </footer>
+    </div>
+  </body>
+</html>
