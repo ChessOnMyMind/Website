@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Regular data -->
+  <meta charset="utf-8">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <!-- Description -->
+  <meta name="author" content="Paul" />
+  <meta name="description" content="Essays from the viewpoint of a deafblind chess player about chess improvement." />
+  <meta name="keywords" content="Deafblind, Braille Chess, Player, Enthusiast, Improvement, Study, Openings, Tactics, Endgames, Books, Games, Chessboard, Pieces, Pawns, Chess Clock, Software, Engines, Databases, Correspondence Tournament, Over the Board Tournament" />
+  <meta name="Resource-type" content="Document" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Title -->
+  <title>A word about Chess eBooks for Blind Players</title>
+
+  <!-- Skiplink -->
+  <a href="#main" class="skiplink">Skip to main content</a>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+  <div class="container">
+    <header role="banner">
+	    <h1 class="site-title"><a href="/" class="site-link">Chess on my Mind</a></h1>
+      <h2 class="subtitle">Inside the Mind of a Deafblind Chess Player</h2>
+        
+      <nav role="navigation">
+        <a href="/" class="nav-link"  aria-current="page" class="on-page">Home</a>
+        <a href="/essays" class="nav-link">Essays</a>
+        <a href="/about" class="nav-link">About</a>
+        <a href="/contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main" role="main">
+      <h1>A word about Chess eBooks for Blind Players</h1>
+      <p class="essay-date">February 24, 2024</p>
+      
+      <article>
+        <p>These days I tend to read eBooks with an assistive-technology stack: a screen reader, and a refreshable braille display; together with Kindle for PC and Thorium Reader which are my two favourite eBooks apps. This combination of tools lets me read most eBooks in braille. There is always an exception though, as I found out when I began to study chess.</p>
+        <p>The accessibility of chess eBooks and other literature has been somewhat challenging at times. There are three reoccurring themes that can make reading chess eBooks in braille difficult.</p>
+        <p>The first accessibility hurdle I came across was with the Kindle version from certain publishers as a braille-only reader. Even though the description of these eBooks assert "Screen Reader : Supported" and "Text-to-Speech : Enabled" it is not possible to read them in braille with the Kindle for PC app. My braille display is blank and I'm unable to read the prose. But these very same eBooks are accessible to blind players who can listen to them with text-to-speech output. I've come across many of these eBooks over the years, so I have gotten into the habit of downloading a "free sample” before I make a purchase. One Kindle eBook I purchased that exhibits this is "The Amateur's Mind: Turning Chess Misconceptions into Chess Mastery" by Jeremy Silman.</p>
+        <p>The second accessibility hurdle I have come across is how the algebraic notation is written in some chess eBooks. For the most part publishers tend to write the notation in text-only format. For example, if "The Réti Opening" is written as 1. Nf3 d5 2. c4 dxc4 then the screen reader will have no problems reading it. However, if the publisher chooses to replace the letter for the pieces with images such as in "The Dunst Opening" being written as 1. &#x265E;c3 e5 2. &#x265E;f3 &#x2658;c6 then the screen reader is unable to read them. This will affect both the speech- and braille-output. On my braille display the images for all the pieces is shown as &#x28ff; which isn't very helpful as I don't know which piece the notation is referring to and that makes it very difficult for a blind player to follow along with what the author is trying to explain. An eBook that comes to mind that uses this type of notation is "Studying Chess Made Easy" by Andrew Soltis.</p>
+        <p>The third accessibility hurdle that a blind chess player will encounter with chess eBooks are the games. These games are graphical images that a screen reader cannot read; so it is not possible for a blind player to know the positions of the pieces on the board and is unable to follow along with the author; in this case it would be helpful if the author had provided the FEN (Forsyth-Edwards Notation) so we could set up our own board and follow along with them.</p>
+        <p>Fortunately, there are some publishers out there who produce eBooks in multiple formats such as CBV, PGN, and EPUB that enable blind chess players who rely on screen readers to follow games on their desktop computers, laptops, tablets, and other mobile devices.</p>
+        <p>One such publisher I like to purchase eBooks from is "Everyman Chess". I avoid their offering of Kindle format unless it happens to be part of the bundle because it isn't accessible to me as a braille reader; but if you can hear the text-to-speech output then it is accessible. The other three formats are what I'm most interested in. First and foremost, I prefer the EPUB format that I read in Thorium Reader as it's a breeze to read the prose and follow along with the algebraic notation in braille. If I need to copy the board position, then I will open either the PGN or CBV version of the book in Chessbase 17 and copy the FEN into Notepad. Then I can setup my tactile chess set to follow along with the author where I left off in Thorium Reader.</p>
+        <p>If the books are only available in PGN and CBV formats; as some are; then I will read these books in Chessbase 17 after making a few minor tweaks to my screen reader settings. I haven't found a way to read these books in Fritz 19 with a screen reader, although the games can be played through in Fritz 19.</p>
+        <p>Over its eighty-year history Everyman Chess has published chess books for every level of player studying chess; from the beginner (800-900) through to the intermediate player (1700-1800) and onwards to expert (1800-2000). They now have almost five hundred titles in their library from masters such as Garry Kasparov, Yasser Seirawan, Vladimir Kramnik, Alexei Shirov, John Watson, Simon Williams, Richard Palliser, John Emms, Neil McDonald and Cyrus Lakdawala amongst other highly accomplished chess authors.</p>
+        <p>Even though there is more than enough eBooks on Everyman Chess for me to read for many years to come, I will undoubtedly purchase chess eBooks from other booksellers, but they will mostly be biographies of renowned masters and other literary works. Having said that if there is an eBook that I really, really want to read and prepared to put up with not knowing the board positions and at times the visually orientated notation then I will do so. Otherwise, most of my chess eBooks will be from the Everyman Chess library.</p>
+        <p>-- Paul</p>
+      </article>
+
+    </main>
+
+    <footer role="contentinfo">
+      <p class="copyright">The content for this site is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>. The code for this site is <a href="https://opensource.org/license/mit/">MIT</a>.</p>
+      </footer>
+    </div>
+  </body>
+</html>

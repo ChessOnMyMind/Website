@@ -45,6 +45,12 @@
             <h2 class="archive-year">2024</h2>
 
             <div class="archive-item d-md-flex">
+              <h3 class="archive-title"><a href="/archive/2024/a-word-about-chess-ebooks-for-blind-players" class="flex-none">A word about Chess eBooks for Blind Players</a></h3>
+              <div class="spacer d-none d-md-block"></div>
+              <div class="archive-date flex-none">February 24, 2024</div>
+            </div>
+
+            <div class="archive-item d-md-flex">
               <h3 class="archive-title"><a href="/archive/2024/my-hunt-for-a-braille-chess-clock" class="flex-none">My hunt for a Braille Chess Clock</a></h3>
               <div class="spacer d-none d-md-block"></div>
               <div class="archive-date flex-none">February 17, 2024</div>

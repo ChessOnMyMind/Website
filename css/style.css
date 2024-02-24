@@ -245,7 +245,7 @@ p {
 
 ul {
 
-    list-style-type: "*";
+    list-style-type: disc;
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
