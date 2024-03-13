@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Regular data -->
+  <meta charset="utf-8">
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+
+  <!-- Description -->
+  <meta name="author" content="Paul" />
+  <meta name="description" content="Essays from the viewpoint of a deafblind chess player about chess improvement." />
+  <meta name="keywords" content="Deafblind, Braille Chess, Player, Enthusiast, Improvement, Study, Openings, Tactics, Endgames, Books, Games, Chessboard, Pieces, Pawns, Chess Clock, Software, Engines, Databases, Correspondence Tournament, Over the Board Tournament" />
+  <meta name="Resource-type" content="Document" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Title -->
+  <title>Chess Software for Blind Players</title>
+
+  <!-- Skiplink -->
+  <a href="#main" class="skiplink">Skip to main content</a>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="/css/style.css">
+
+</head>
+<body>
+  <div class="container">
+    <header role="banner">
+	    <h1 class="site-title"><a href="/" class="site-link">Chess on my Mind</a></h1>
+      <h2 class="subtitle">Inside the Mind of a Deafblind Chess Player</h2>
+        
+      <nav role="navigation">
+        <a href="/" class="nav-link"  aria-current="page" class="on-page">Home</a>
+        <a href="/essays" class="nav-link">Essays</a>
+        <a href="/about" class="nav-link">About</a>
+        <a href="/contact" class="nav-link">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main" role="main">
+      <h1>Chess Software for Blind Players</h1>
+      <p class="essay-date">March 13, 2024</p>
+      
+      <article>
+        <p>It all started when I was looking for a PGN Viewer to read some eBooks I had purchased from Everyman Chess. As a screen reader user, I was looking for a PGN Viewer that is accessible to me. PGN (Portable Game Notation) is a computer data format for recording chess games in plain text, which can be read by humans and is also supported by most chess software.</p>
+        <p>At first, I only wanted a PGN Viewer so I could extract the Forsyth-Edwards Notation (FEN) so I could setup my tactile chess set to follow along with the author in Thorium Reader where I prefer reading the EPUB format of the same book in braille.</p>
+        <h2>Text Editors</h2>
+        <p>The first software I looked at was Notepad on Windows, and Vim on Linux. Neither are chess software, but they can easily open a PGN eBook and read with a screen reader. This solved my problem of extracting the FEN.</p>
+        <p>A PGN eBook is basically a plain text file and consists of two main elements: the game data and the authors prose with the moves.</p>
+        <p>The first element comprises of seven tags: Event, Site, Date, Round, White, Black, and Result. PGN eBooks have an additional six tags: Annotator, SetUp, FEN, PlyCount, Source, and SourceDate. Below you can see the structure of a Portable Chess Game Notation (PGN), taken from John Emms "Starting Out: Minor Piece Endgames".</p>
+        <pre><code>
+            [Event "?"]<br />
+            [Site "?"]<br />
+            [Date "????.??.??"]<br />
+            [Round "?"]<br />
+            [White "Example 1a"]<br />
+            [Black "?"]<br />
+            [Result "*"]<br />
+            [Annotator "John Emms"]<br />
+            [SetUp "1"]<br />
+            [FEN "8/6k1/8/P7/8/4K3/8/1b6 w - - 0 1"]<br />
+            [PlyCount "3"]<br />
+            [Source "Everyman Chess"]<br />
+            [SourceDate "2017.04.04"]
+        </code></pre>
+        <p>The tags must be opened and closed with square brackets; the tag's name is written after the first bracket; then, the tag's value within quotation marks follow it.</p>            
+        <p>The prose of the PGN eBook is enclosed in curly brackets; whereas the variations are enclosed in round brackets; as shown in an extract from GM Emms book below:</p>
+        <blockquote>{Black's bishop is unfortunately placed and, even though the pawn is three squares from queening, Black cannot do anything to prevent this happening.} 1. a6 Ba2 {(intending ...Bd5)} 2. Kd4 $1 {and there is no way to prevent the pawn from promoting.}</blockquote>
+        <p>The tenth tag shows the Forsyth-Edwards Notation (FEN) string. This lets me setup a tactile chess set from a certain position so I can follow along with the author as I read the book. It's very helpful when solving chess puzzles, studying tactics, combinations, and endgames positions. At first glance, FEN looks like a string of random symbols, but it is not that hard to understand; once you know the six elements of a FEN string; but that is beyond the scope of this essay.</p>
+        <pre><code>[FEN "8/6k1/8/P7/8/4K3/8/1b6 w - - 0 1"]</code></pre>
+        <p>Although it is straight forward to read an PGN eBook in a text editor with a screen reader it isn't the most enjoyable way; which is why I prefer to read the EPUB version in Thorium Reader and extract the FEN from the PGN-file in Notepad or Vim. So, the hunt of a more user-friendly PGN Viewer continued.</p>
+        <h2>Winboard</h2>
+        <p>A few members of the BCA (Braille Chess Association) recommended Winboard 4.5. It is a free Windows accessible chess program that works well with JAWS or the free NVDA screen reader. I haven't personally tried it for two reasons. Firstly, it is a 32-bit application; and with Microsoft phasing out 32-bit software, I decided that I didn't want to spend a lot of time learning a program that I might not be able to use in a couple of years. The second reason I chose not to install Winboard is it hasn't been updated in a long time; twelve years at the time of writing. I prefer to keep my own computers and applications current. So, my search to find a PGN Viewer continued.</p>
+        <h2>Fritz 19</h2>
+        <p>There were a couple members of the BCA that suggested I take a look at Fritz. They all had older versions of the software; some as old as Fritz 9; that goes back almost twenty-years! The latest version is Fritz 19, which was released at the end of last year. The biggest challenge, I was cautioned, was the graphical user-interface; it's not particularly screen reader-friendly. I decided to take a chance and purchase the latest version as Chessbase doesn't offer a free trial.</p>
+        <p>I spent a week trying to figure out how to use Fritz 19 with JAWS; my screen readers of choice on Windows; with a refreshable braille display. It was challenging but I have now figured out for the most part how to navigate the interface using only a keyboard; as a mouse is of no use to me.</p>
+        <p>Fritz 19 is very good for playing games against the computer with chess engines such as Stockfish. I can enter the moves using a keyboard and read the replies in the notation pane on my braille display; and feel the positions on my tactile chessboard.</p>
+        <p>Another feature I enjoy is the training, such as endgame training. I can copy the FEN to a text editor such as Notepad so I can setup my tactile chess board; then I can play against the engine in the same way as I do when playing a game against a chess engine.</p>
+        <p>After a little trial and error, I found it easy enough to search the database for a specific chess player such as Paul Morphy and study his games. My current database is the Mega Database 2024. I chose this particular database because it has annotated games, including the ones by David Lawson that Thomas Aiello omitted from the revised biography "Paul Morphy: The Pride and Sorrow of Chess". I am still figuring out how to use the analysis feature in Fritz.</p>
+        <p>When I purchased the Mega Database 2024, Chessbase had a bundle offer that included Chessbase 17; so I decided to take another chance to see if Chessbase 17 was accessible for screen reader users as well as Fritz.</p>
+        <h2>Chessbase 17</h2>
+        <p>When I am talking about Chessbase, I am referring to the Chessbase 17 Program that needs to be purchased. I am not referring to the free to download Chessbase Reader 2017 which is not accessible to screen reader users.</p>
+        <p>The user-interface of Chessbase 17 is not the same as Fritz 19. So moving around the UI is completely different and it has its own set of keyboard shortcuts. I'm not going to go into details here of the pros and cons between Chessbase 17 and Fritz 19; as I will be writing extensively about this in forthcoming essays; but what I can tell you is each of these chess programs lets me do something the other one can't or it's simply easier to perform a task in one than the other. A good example of this would be reading PGN eBooks; with some tweaks to my screen reader, I can read it in Chessbase 17 but not in Fritz 19.</p>
+        <p>Another example is how much easier it is to search for a specific game in a database with Fritz 19 than it is with Chessbase 17; but I prefer to read the notation to those games in Chessbase rather than Fritz.</p>
+        <p>It's all very strange how these two chess programs differ so much considering that they are both developed by Chessbase.</p>
+        <p>I know I shouldn't, but I am seriously considering purchasing "Opening Encyclopaedia 2023" and "Fritz Powerbook 2024" to help me with my chess study … but that is another story.</p>
+        <p>-- Paul</p>
+      </article>
+
+    </main>
+
+    <footer role="contentinfo">
+      <p class="copyright">The content for this site is <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA</a>. The code for this site is <a href="https://opensource.org/license/mit/">MIT</a>.</p>
+      </footer>
+    </div>
+  </body>
+</html>

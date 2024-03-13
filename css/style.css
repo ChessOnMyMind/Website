@@ -200,9 +200,16 @@ footer {
 * Headings
 */
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
 	font-size: 2rem;
 	margin: 0;
+    margin-bottom: 2rem;
+	font-weight: bold;
+	color: #fff;
+}
+h2, h3, h4, h5, h6 {
+	font-size: 1.5rem;
+	margin-top: 2rem;
     margin-bottom: 2rem;
 	font-weight: bold;
 	color: #fff;
