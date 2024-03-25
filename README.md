@@ -1,6 +1,6 @@
 # Chess on my Mind
 
-This is my personal website: [https://chessonmymind.org](https://chessonmymind.org).
+This is my chess website: [https://chessonmymind.org](https://chessonmymind.org).
 
 **NOTE:** The project is currently work in progress and I am still making tweaks to the code.
 
